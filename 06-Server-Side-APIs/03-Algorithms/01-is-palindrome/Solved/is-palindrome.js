@@ -1,17 +1,17 @@
-// Write code that returns true if `str` is a palindrome, and false if `str` is not a palindrome
+// // Write code that returns true if `str` is a palindrome, and false if `str` is not a palindrome
 
-var isPalindrome = function(str) {
-  var reversedString = str
-    .split("")
-    .reverse()
-    .join("");
+// var isPalindrome = function(str) {
+//   var reversedString = str
+//     .split("")
+//     .reverse()
+//     .join("");
 
-  if (reversedString === str) {
-    return true;
-  } else {
-    return false;
-  }
-};
+//   if (reversedString === str) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// };
 
 // Alternatively, this problem could have been solved by comparing the letters at the front of `str` to the letters at the back of `str`
 
@@ -23,3 +23,12 @@ var isPalindrome = function(str) {
 //   }
 //   return true;
 // };
+
+
+var isPalindrome = function(str) {
+  var reverse = str.split("").reverse().join("")
+ if (str === reverse) {
+   return true;
+ } else 
+ return false;
+}

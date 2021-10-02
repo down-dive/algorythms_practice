@@ -11,5 +11,7 @@ var vowelCount = function(str) {
             count += 1;
         }
     }
+
     return count;
 };
+
