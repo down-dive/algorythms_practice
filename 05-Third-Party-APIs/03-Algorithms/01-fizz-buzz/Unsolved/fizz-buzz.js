@@ -36,6 +36,3 @@ var fizzBuzz = function(arr) {
     }
 }
 
-// var fizzBuzz = function(arr) {
-//     for (var i = 0; i < arr.length)
-// }
