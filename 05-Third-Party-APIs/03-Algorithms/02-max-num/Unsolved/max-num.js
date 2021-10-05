@@ -16,15 +16,26 @@
 // };
 
 
+// var maxNum = function(arr) {
+//     var max = arr[0];
+
+//     for (var i = 0; i < arr.length; i++) {
+//        var initialCount = arr[i];
+
+//         if (initialCount > max) {
+//             max = initialCount
+//         } 
+//     }
+//     return max
+// }
+
 var maxNum = function(arr) {
-    var max = arr[0];
-
     for (var i = 0; i < arr.length; i++) {
-       var initialCount = arr[i];
+        var number = 0
 
-        if (initialCount > max) {
-            max = initialCount
-        } 
+        if (number < arr[i]) {
+            number = arr[i]
+        }
     }
-    return max
+    return number;
 }
