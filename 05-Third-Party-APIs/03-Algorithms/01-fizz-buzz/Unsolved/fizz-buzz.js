@@ -15,11 +15,10 @@
 //         } else if (currentNumber % 5 === 0) {
 //             console.log("Buzz")
 //         } else {
-//             console.log(currentNumber)
+//             console.log(currentNumber
 //         }
 //     }
 // };
-
 
 var fizzBuzz = function(arr) {
     for (var i = 0; i < arr.length; i++) {
