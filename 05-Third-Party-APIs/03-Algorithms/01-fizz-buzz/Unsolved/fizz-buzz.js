@@ -6,7 +6,7 @@
 
 // var fizzBuzz = function (arr) {
 //     for (var i = 0; i < arr.length; i++) {
-//         var currentNumber = arr[i];
+//         var currentNumb er = arr[i];
 
 //         if (currentNumber % 15 === 0) {
 //             console.log("Fizz Buzz")
@@ -19,6 +19,7 @@
 //         }
 //     }
 // };
+
 
 var fizzBuzz = function(arr) {
     for (var i = 0; i < arr.length; i++) {
