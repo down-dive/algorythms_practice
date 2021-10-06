@@ -3,6 +3,16 @@
 //
 // YOUR CODE HERE
 //
+function Animal(raining, noise) {
+    this.raining = raining;
+    this.noise = noise;
+}
+
+Animal.prototype.makeNoise = function() {
+    return {
+        noise: this.noises
+    }
+}
 
 // Creates `dog` and `cat` objects with `raining` and `noise` properties
 let dog = new Animal(true, 'Woof!');
