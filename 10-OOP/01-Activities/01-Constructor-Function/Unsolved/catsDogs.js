@@ -6,11 +6,10 @@
 function Animal(raining, noise) {
     this.raining = raining;
     this.noise = noise;
-}
-
-Animal.prototype.makeNoise = function() {
-    return {
-        noise: this.noises
+    this.makeNoise = function() {
+        if (this.raining === true) {
+            console.log(this.noise)
+        }
     }
 }
 
