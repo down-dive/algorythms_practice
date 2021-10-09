@@ -8,6 +8,7 @@ var incrementCount = document.getElementById('increment')
 
 
 // TODO: Create a function that displays the current count on the page
+
 var displayCurrentCount = function() {
     count.innerHTML = currentCount
 }
