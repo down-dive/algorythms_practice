@@ -3,6 +3,7 @@ var count = document.getElementById('count')
 var currentCount = 0;
 
 // TODO: Create variables to select the increment button, decrement button and count heading by their respective ids.
+
 var decrementCount = document.getElementById('decrement')
 var incrementCount = document.getElementById('increment')
 
