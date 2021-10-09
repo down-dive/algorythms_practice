@@ -1,4 +1,5 @@
 // TODO: Create a variable to hold the count
+
 var count = document.getElementById('count')
 var currentCount = 0;
 
