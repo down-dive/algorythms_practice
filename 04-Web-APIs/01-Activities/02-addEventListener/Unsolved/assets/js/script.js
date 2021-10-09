@@ -14,6 +14,7 @@ var displayCurrentCount = function() {
 
 // TODO: Create an addEventListener that will increment the count on click
 // and calls the function to display the current count
+
 decrementCount.addEventListener('click', function() {
     if (currentCount <= 0) {
         alert("Can't go lower than 0")
