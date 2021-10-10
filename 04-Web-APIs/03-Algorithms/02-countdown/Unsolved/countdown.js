@@ -8,8 +8,14 @@
 // }
 
 
-var countdown = function (num) {
-    for (i = num; i >= 1; i--) {
+// var countdown = function (num) {
+//     for (i = num; i >= 1; i--) {
+//         console.log(i)
+//     }
+// }
+
+var countdown = function(num) {
+    for ( var i = num; i => 1; i--) {
         console.log(i)
     }
 }

@@ -10,10 +10,18 @@
 // };
 
 
+// var logEvenNums = function(num) {
+//     for ( i = 0; i <= num; i ++) {
+//         if ( i % 2 === 0) {
+//             console.log(i)
+//         }
+//     }
+// }
+
 var logEvenNums = function(num) {
-    for ( i = 0; i <= num; i ++) {
-        if ( i % 2 === 0) {
-            console.log(i)
-        }
+for (var i = 0; i < num; i++) {
+    if ( i % 2 === 0) {
+        console.log(i)
     }
+}
 }
