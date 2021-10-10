@@ -12,10 +12,13 @@
 // };
 
 
-var sumArray = function(arr) {
-    let sum = arr.reduce(function(a, b) {
-   return a + b;
-}, 0)
-return sum
-}
+// var sumArray = function(arr) {
+//     let sum = arr.reduce(function(a, b) {
+//    return a + b;
+// }, 0)
+// return sum
+// }
 
+var sumArray = function(arr) {
+    return arr.reduce(a + b)
+}
