@@ -29,13 +29,25 @@
 //     return max
 // }
 
-var maxNum = function(arr) {
-    for (var i = 0; i < arr.length; i++) {
-        var number = 0
+// var maxNum = function(arr) {
+//     for (var i = 0; i < arr.length; i++) {
+//         var number = 0
 
-        if (number < arr[i]) {
-            number = arr[i]
-        }
+//         if (number < arr[i]) {
+//             number = arr[i]
+//         }
+//     }
+//     return number;
+// }
+
+var maxNum = function(arr) {
+var number = 0;
+
+for (var i = 0; i < arr.length; i++ ) {
+    if (arr[i] > number) {
+        number = arr[i]
     }
-    return number;
+    
+}
+return number
 }
