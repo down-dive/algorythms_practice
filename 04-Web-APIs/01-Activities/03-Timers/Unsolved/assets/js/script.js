@@ -12,10 +12,14 @@ function countdown() {
 
   // TODO: Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
   var timeInterval = setInterval(function() {
-while (timeLeft > 1) {
-  timerEl.textContent = 
-}
-  });
+if (timeLeft > 1) {
+  timerEl.textContent = timeLeft + ' seconds remaining';
+  timeLeft --;
+} else ( timeLeft === 0 ) 
+timerEl.textContent === ''
+clearInterval()
+displayMessage()
+  }, 1000);
 }
 
 // Displays the message one word at a time
