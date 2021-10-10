@@ -11,14 +11,21 @@ function countdown() {
   var timeLeft = 5;
 
   // TODO: Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
-  var timeInterval = setInterval(function() {
-if (timeLeft > 1) {
-  timerEl.textContent = timeLeft + ' seconds remaining';
-  timeLeft --;
-} else ( timeLeft === 0 ) 
-timerEl.textContent === ''
-clearInterval()
-displayMessage()
+  var timeInterval = setInterval(function () {
+
+    if (timeLeft > 1) {
+
+      timerEl.textContent = timeLeft + ' seconds remaining';
+      timeLeft--;
+    } else if (timeLeft === 1) {
+      timerEl.textContent = timeLeft + ' second remaining';
+      timeLeft--;
+    } else {
+      timerEl.textContent === ''
+    clearInterval(timeInterval)
+console.log("hello")
+    displayMessage()
+    }
   }, 1000);
 }
 
@@ -27,7 +34,7 @@ function displayMessage() {
   var wordCount = 0;
 
   // Uses the `setInterval()` method to call a function to be executed every 300 milliseconds
-  var msgInterval = setInterval(function() {
+  var msgInterval = setInterval(function () {
     if (words[wordCount] === undefined) {
       clearInterval(msgInterval);
     } else {

@@ -27,6 +27,7 @@ function countdown() {
       timerEl.textContent = '';
       // Use `clearInterval()` to stop the timer
       clearInterval(timeInterval);
+      console.log("Hello!")
       // Call the `displayMessage()` function
       displayMessage();
     }
