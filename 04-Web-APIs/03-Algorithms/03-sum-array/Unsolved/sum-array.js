@@ -20,5 +20,5 @@
 // }
 
 var sumArray = function(arr) {
-    return arr.reduce(a + b)
+     
 }

@@ -10,16 +10,27 @@
 //     }
 // };
 
-var isPalindrome = function(str) {
-    var reversed = str.split('').reverse().join('')
+// var isPalindrome = function(str) {
+//     var reversed = str.split('').reverse().join('')
     
-    if (str === reversed) {
-      console.log("It worked!")
-      return true
+//     if (str === reversed) {
+//       console.log("It worked!")
+//       return true
       
-  } else {
-    console.log("It is not palindrome")
-    return false
+//   } else {
+//     console.log("It is not palindrome")
+//     return false
     
+//   }
+//   }
+
+
+var isPalindrome = function(str) {
+  var reversedStr = str.split('').reverse().join('');
+
+  if ( str.toLowerCase() === reversedStr.toLowerCase()) {
+    return true
+  } else {
+    return false
   }
-  }
+}
