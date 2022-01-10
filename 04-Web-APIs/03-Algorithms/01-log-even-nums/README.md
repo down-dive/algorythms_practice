@@ -5,6 +5,7 @@ In this activity you will be writing code to create a function that prints even 
 
 ## Instructions
 
+
 - Open [Unsolved/log-even-nums.js](Unsolved/log-even-nums.js) in your code editor -- **this is the only file you will modify in this activity.**
 
   - In this file you will be writing code in the body of the `logEvenNums` function to achieve the following:
